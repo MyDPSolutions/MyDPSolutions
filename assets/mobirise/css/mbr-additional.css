@@ -3,43 +3,43 @@ body {
 }
 .display-1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
+  font-size: 2.4rem;
   font-display: swap;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 3.84rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 2rem;
-  font-display: swap;
-}
-.display-2 > .mbr-iconfont {
-  font-size: 3.2rem;
-}
-.display-4 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1.4rem;
-  font-display: swap;
-}
-.display-4 > .mbr-iconfont {
-  font-size: 2.24rem;
-}
-.display-5 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1.6rem;
-  font-display: swap;
-}
-.display-5 > .mbr-iconfont {
-  font-size: 2.56rem;
-}
-.display-7 {
   font-family: 'Rubik', sans-serif;
   font-size: 1.8rem;
   font-display: swap;
 }
-.display-7 > .mbr-iconfont {
+.display-2 > .mbr-iconfont {
   font-size: 2.88rem;
+}
+.display-4 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  font-display: swap;
+}
+.display-4 > .mbr-iconfont {
+  font-size: 1.6rem;
+}
+.display-5 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+  font-display: swap;
+}
+.display-5 > .mbr-iconfont {
+  font-size: 1.92rem;
+}
+.display-7 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.4rem;
+  font-display: swap;
+}
+.display-7 > .mbr-iconfont {
+  font-size: 2.24rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -48,24 +48,24 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.92rem;
+    font-size: calc( 1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.28rem;
-    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -527,11 +527,11 @@ a:hover {
 }
 .form-control {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-display: swap;
 }
 .form-control > .mbr-iconfont {
-  font-size: 2.88rem;
+  font-size: 2.24rem;
 }
 blockquote {
   border-color: #000000;
@@ -620,7 +620,7 @@ section.lazy-placeholder:after {
   opacity: 0.3;
 }
 .cid-qPpS5jtQs1 {
-  padding-top: 75px;
+  padding-top: 120px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/money-grow-cash-coins-plant-reap-and-sow-1024x589.jpg");
 }
@@ -2153,10 +2153,10 @@ section.lazy-placeholder:after {
   color: #c1c1c1 !important;
 }
 .cid-qPv5LDaBwh {
-  padding-top: 75px;
+  padding-top: 120px;
   padding-bottom: 120px;
-  background: #b2ccd2;
-  background: linear-gradient(0deg, #19687f, #b2ccd2);
+  background: #839fa6;
+  background: linear-gradient(0deg, #19687f, #839fa6);
 }
 .cid-qPv5LDaBwh .image-block {
   margin: auto;
@@ -2977,6 +2977,8 @@ section.lazy-placeholder:after {
   color: #c1c1c1 !important;
 }
 .cid-qPYSzCMuI4 {
+  padding-top: 135px;
+  padding-bottom: 135px;
   background-image: url("../../../assets/images/banner-services-975x245.jpg");
 }
 .cid-qPYSzCMuI4 .mbr-text,
@@ -3814,9 +3816,9 @@ section.lazy-placeholder:after {
   color: #c1c1c1 !important;
 }
 .cid-qR6bJ1tBaB {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/logo1234-2-432x432.png");
+  padding-top: 120px;
+  padding-bottom: 0px;
+  background-color: #0e1e09;
 }
 .cid-qR6bJ1tBaB .mbr-figure {
   margin: 0 auto;
@@ -3832,48 +3834,6 @@ section.lazy-placeholder:after {
   .cid-qR6bJ1tBaB .mbr-figure img {
     width: 100% !important;
   }
-}
-.cid-qPZ1RMggbq {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #073b4c;
-}
-.cid-qPZ1RMggbq .counter-container {
-  color: #767676;
-}
-.cid-qPZ1RMggbq .counter-container ol {
-  margin-bottom: 0;
-  counter-reset: myCounter;
-}
-.cid-qPZ1RMggbq .counter-container ol li {
-  margin-bottom: 1rem;
-}
-.cid-qPZ1RMggbq .counter-container ol li {
-  list-style: none;
-  padding-left: .5rem;
-}
-.cid-qPZ1RMggbq .counter-container ol li:before {
-  position: absolute;
-  left: 0px;
-  margin-top: -10px;
-  counter-increment: myCounter;
-  content: counter(myCounter);
-  display: inline-block;
-  text-align: center;
-  margin: 5px 10px;
-  line-height: 40px;
-  transition: all .2s;
-  color: #ffffff;
-  background: #149dcc;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-.cid-qPZ1RMggbq .mbr-text B {
-  color: #ffffff;
-}
-.cid-qPZ1RMggbq .mbr-text LI {
-  color: #ffffff;
 }
 .cid-qPq57A291C .navbar {
   padding: .5rem 0;
@@ -5536,8 +5496,8 @@ section.lazy-placeholder:after {
   color: #c1c1c1 !important;
 }
 .cid-qPZ67Bg1Un {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-image: url("../../../assets/images/mbr-2-720x1080.jpg");
 }
 .cid-qPZ67Bg1Un .mbr-section-subtitle {
