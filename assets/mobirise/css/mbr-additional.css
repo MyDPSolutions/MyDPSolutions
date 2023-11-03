@@ -620,7 +620,7 @@ section.lazy-placeholder:after {
   opacity: 0.3;
 }
 .cid-qPpS5jtQs1 {
-  padding-top: 120px;
+  padding-top: 90px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/money-grow-cash-coins-plant-reap-and-sow-1024x589.jpg");
 }
@@ -6459,4 +6459,5 @@ section.lazy-placeholder:after {
 .cid-tUuIfQKMfz .mbr-text,
 .cid-tUuIfQKMfz .mbr-section-btn {
   text-align: left;
+  color: #ffffff;
 }
